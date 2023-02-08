@@ -1,7 +1,9 @@
-name: 🟥 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
