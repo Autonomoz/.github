@@ -8,6 +8,5 @@ body:
       label: O que aconteceu?
       description: Diga-nos também, o que esperava que acontecesse?
       placeholder: Diga-nos o que vê!
-      value: "Aconteceu um erro!"
     validations:
       required: true
