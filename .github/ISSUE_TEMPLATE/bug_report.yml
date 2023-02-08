@@ -11,9 +11,3 @@ body:
       value: "Aconteceu um erro!"
     validations:
       required: true
-  - type: textarea
-    id: archives
-    attributes:
-      label: Arquivos
-      description: Por favor, copie e cole qualquer saída de registo relevante. Isto será automaticamente formatado em código, pelo que não haverá necessidade de backticks.
-      render: JSON
