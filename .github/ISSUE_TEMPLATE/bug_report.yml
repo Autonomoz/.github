@@ -1,6 +1,6 @@
 name: Criar item
 description: Adicione um novo item
-title: " "
+title: "[TYPE]: "
 body:
   - type: textarea
     id: description
