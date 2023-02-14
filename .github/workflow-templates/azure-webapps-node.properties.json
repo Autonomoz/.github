@@ -1,0 +1,8 @@
+{
+    "name": "NextJs for Azure: Build & Deploy",
+    "description": "Template para projetos NextJs para deploy na Azure Cloud",
+    "categories": [
+        "JavaScript",
+        "Deployment"
+    ]
+}
