@@ -1,7 +1,7 @@
 {
     "name": "NextJs for Azure: Build & Deploy",
     "description": "Template para projetos NextJs para deploy na Azure Cloud",
-    "iconName": "octicon telescope-fill",
+    "iconName": "undefined-icon",
     "categories": [
         "JavaScript",
         "Deployment"
