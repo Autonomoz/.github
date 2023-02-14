@@ -75,7 +75,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
       - name: Run - Test
-        run: ${{ steps.detect-package-manager.outputs.runner }} next test
+        # run: ${{ steps.detect-package-manager.outputs.runner }} next test #Enable when test is available
+        run: npm run test --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
