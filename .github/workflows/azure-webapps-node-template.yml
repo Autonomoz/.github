@@ -20,28 +20,7 @@
 name: Deploy Next.js to Azure
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-env:
-  AZURE_WEBAPP_NAME: your-app-name # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: "." # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: "14.x" # set this to the node version to use
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  workflow_call:
 
 jobs:
   # Build job
@@ -103,7 +82,7 @@ jobs:
 
       - name: Run - Build
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      
+
       - name: Run - Test
         run: ${{ steps.detect-package-manager.outputs.runner }} next test
 
