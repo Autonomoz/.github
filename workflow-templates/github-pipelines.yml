@@ -1,0 +1,17 @@
+name: "NextJs for Azure: Build & Deploy"
+
+on:
+  push:
+    branches: [$default-branch]
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: your-app-name # set this to the name of your Azure Web App
+
+permissions:
+  contents: read
+
+jobs:
+  pipelines:
+    name: Pipeline Main
+    uses: Autonomoz/.github/.github/workflows/azure-webapps-node-template.yml@$default-branch
