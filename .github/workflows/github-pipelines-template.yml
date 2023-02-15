@@ -44,7 +44,7 @@ jobs:
         with:
           login-server: crmobilitycentralusdev.azurecr.io
           username: crmobilitycentralusdev
-          password: ${{ secrets.REGISTRY_PASSWORD }}
+          password: urv2g224EFs0ruimpzMmhkeTJSkrL=xb
 
       - name: Log in to GitHub container registry
         uses: docker/login-action@v1.10.0
