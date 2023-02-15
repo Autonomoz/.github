@@ -14,4 +14,4 @@ permissions:
 jobs:
   pipelines:
     name: Pipeline Main
-    uses: Autonomoz/.github/.github/workflows/azure-webapps-node-template.yml@$default-branch
+    uses: Autonomoz/.github/.github/workflows/github-pipelines-template.yml@$default-branch
