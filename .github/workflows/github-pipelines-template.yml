@@ -43,7 +43,7 @@ jobs:
         uses: azure/docker-login@v1
         with:
           login-server: crmobilitycentralusdev.azurecr.io
-          username: ${{ secrets.REGISTRY_USERNAME }}
+          username: crmobilitycentralusdev
           password: ${{ secrets.REGISTRY_PASSWORD }}
 
       - name: Log in to GitHub container registry
