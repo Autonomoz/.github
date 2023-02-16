@@ -3,7 +3,6 @@
     "description": "Template para projetos NextJs para deploy na Azure Cloud (Docker container)",
     "iconName": "autonomoz-icon",
     "categories": [
-        "JavaScript",
         "Deployment"
     ]
 }
