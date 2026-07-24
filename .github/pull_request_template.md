@@ -29,7 +29,7 @@
 
 ## Issue / task relacionada
 
-<!-- Ex: FT-2318 -->
+<!-- Ex: FT-2318 / Adicionar com hyperlink da Task-->
 
 
 ## Breaking changes
